@@ -1,0 +1,17 @@
+{
+  "name": "task-cli",
+  "version": "1.0.0",
+  "description": "A todo list for developer whose daily driver is working in the terminal",
+  "main": "bin/index.js",
+  "bin": {
+    "task": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kartik Labhshetwar",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
